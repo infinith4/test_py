@@ -6,3 +6,5 @@ poetry new test_app
 
 poetry add fastapi uvicorn[standard] gunicorn
 
+poetry shell
+python test.py
