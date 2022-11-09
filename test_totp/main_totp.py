@@ -11,5 +11,5 @@ print(f'totp_val: {totp_val}')
 veryfy = totp.verify(totp_val) # => True
 print(f'veryfy: {veryfy}')
 time.sleep(30)
-veryfy = totp.verify('492039') # => False
+veryfy = totp.verify(totp_val) # => False
 print(f'veryfy: {veryfy}')
